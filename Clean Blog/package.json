@@ -1,0 +1,27 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "Patika Homework for Nodejs Courses",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "blog",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Tecosama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "prettier": "2.6.2"
+  }
+}
