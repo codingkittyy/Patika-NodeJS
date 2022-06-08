@@ -11,6 +11,14 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
+              <div class="d-flex justify-content-between"> 
+              <a href="/posts/edit/<%= post._id %>" class="text-white ">
+                <h5 class="font-weight-normal">Edit Post</h5>
+              </a>
+              <a href="/posts/<%= post._id %>?_method=DELETE" onclick="return confirm('Are you sure')" class="text-white ">
+                <h5 class="font-weight-normal">Remove Post</h5>
+              </a>
+            </div>
               <h1><%= post.title %></h1>
               <h2 class="subheading">
                 <%= post.subtitle %>              
