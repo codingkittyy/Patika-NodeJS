@@ -32,7 +32,7 @@ mongoose
 app.use('/', pageRoute)
 app.use('/portfolio', photoRoute)
 
-const port = 3000
+const port = process.env.PORT || 5000
 
 app.listen(port, () =>
   console.log(`Agency App Project is running on port: ${port}`)
